@@ -1,7 +1,10 @@
 # Synthetic Battery Data
 Generation of synthetic battery operation data using a generative adversarial network (GAN) and a state-of-charge (SOC) estimator.
 
-![Generative framework overview](./generative_framework.png)
+<!-- ![Generative framework overview](./generative_framework.png) -->
+<p align="center">
+  <img src="./generative_framework.png" width="550">
+</p>
 
 ## Introduction
 
