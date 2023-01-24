@@ -255,6 +255,7 @@ class GANTrainerBase(ABC):
     self._save_json(self.config, 'config')
     self.copy_own_py_file(__file__)
     shutil.copyfile('lg_dataset.py', f'{self.result_base_dir}{self.result_name}/lg_dataset.py')
+    shutil.copyfile('arg_parser.py', f'{self.result_base_dir}{self.result_name}/arg_parser.py')
     if self.result_notebook is not None:
       shutil.copyfile(self.result_notebook, f'{self.result_base_dir}{self.result_name}/result.ipynb')
     
