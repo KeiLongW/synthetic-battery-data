@@ -15,15 +15,22 @@ The experiment is performed on the public battery dataset: [**LG 18650HG2 Li-ion
 
 The work shown here is an implementation from a research article that was published in the  [**Electronics**](https://www.mdpi.com/journal/electronics). If you use this work, please cite our paper:
 
-*A Novel Fusion Approach Consists of GAN and State-of-Charge Estimator for Synthetic Battery Operation Data Generation* 
-<!-- [DOI: []()]
+*A Novel Fusion Approach Consisting of GAN and State-of-Charge Estimator for Synthetic Battery Operation Data Generation* 
+[DOI: [10.3390/electronics12030657](https://doi.org/10.3390/electronics12030657)]
 
 ```
-
-``` -->
-
-```
-# The article is currently under publication process, the citation will be updated here once it is completed.
+@Article{electronics12030657,
+AUTHOR = {Wong, Kei Long and Chou, Ka Seng and Tse, Rita and Tang, Su-Kit and Pau, Giovanni},
+TITLE = {A Novel Fusion Approach Consisting of GAN and State-of-Charge Estimator for Synthetic Battery Operation Data Generation},
+JOURNAL = {Electronics},
+VOLUME = {12},
+YEAR = {2023},
+NUMBER = {3},
+ARTICLE-NUMBER = {657},
+URL = {https://www.mdpi.com/2079-9292/12/3/657},
+ISSN = {2079-9292},
+DOI = {10.3390/electronics12030657}
+}
 ```
 
 ## Source code structure
@@ -39,7 +46,7 @@ The work shown here is an implementation from a research article that was publis
 
 ## Quick start
 
-### Install requirements:
+### Install requirements
 Create conda environment from our yml file. Depending on your server's configuration, the version of PyTorch and TensorFlow may differ.
 ```
 conda env create -f environment.yml
