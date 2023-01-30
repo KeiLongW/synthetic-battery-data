@@ -66,4 +66,4 @@ python3 train_lstm_gan.py
 
 ### Evaluation
 Once you start the training, a new result will be created in the `results` directory. Run the `result.ipynb` notebook to view the training result.
-<!-- Alternatively, you can download our result form release and place to the `results` directory to evaluate our trained model. -->
+Alternatively, you can download our result form release and place to the `results` directory to evaluate our trained model that was presented in the paper.
